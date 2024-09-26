@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+main{
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr; 
+    background-position: center;
+    background-size: cover;
+    justify-items   : center;
+    align-items: center;
+}
+
+main .register-section{
+    display: flex;
+    height: 65%;
+    border-radius: 12px;
+    background: transparent;
+    backdrop-filter: blur(25px);
+    border: 5px solid white;
+    width: 450px;
+    flex-direction: column;
+    padding: 42px 60px;
+    color:aliceblue
+}
+main .register-section h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    margin-bottom: 24px;
+}
+main .register-section label{
+    font-size: large;
+    font-weight: 400;
+    
+}
+main .register-section input:nth-child(1){
+    height: 30px;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    padding: 2px 20px;
+}
+main .register-section input{
+    height: 30px;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    outline: none;
+    border: none;
+    padding: 2px 20px;
+}
+main .register-section .button{
+    background: white;
+    outline: none;
+    border: 2px solid aliceblue;
+    cursor: pointer;
+    color: black;
+    font-weight: 600;
+    height: 35px;
+}
+main .register-section .button:hover{
+    background: transparent;
+    border: 2px solid aliceblue;
+    color: aliceblue;
+}
+main .register-section p a {
+    font-size: small;
+    color: aliceblue;
+}
